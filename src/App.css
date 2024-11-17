@@ -20,3 +20,10 @@ header ul li{
   @apply text-red-700 ;
 
 }
+/* projects section */
+.project-ani{
+  @apply absolute left-0 right-0 bottom-[0px] top-0 bg-slate-900 opacity-0 duration-500 hover:opacity-100 ;
+}
+.btn{
+  @apply bg-gray-800 px-5 py-2 font-bold hover:border-2 border-white rounded ;
+}
