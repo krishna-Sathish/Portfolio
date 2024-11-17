@@ -3,7 +3,7 @@ import HeroImg from '../assets/hacker.jpg'
 import { AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
 const Hero = () => {
   return (
-    <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-gray-900'>
+    <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-gray-800'>
         <div className='md:w-1/2 flex flex-col'>
         <h1 className=' text-white text-6xl font-hero-font'>Hi, <br/> Im <span className='text-black'>SATHISH </span>
         <p className='text-2xl'>I'm a Full-stack developer</p></h1>
