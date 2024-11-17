@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* header style */
+
+header ul li{
+  @apply px-2 ;
+}
+.mobile_nav{
+@apply fixed top-10 left-0 bg-gray-950 text-white w-full h-1/4;
+}
+
+.mobile_nav li{
+  @apply w-full text-center border-b-2 h-full;
+  transition: 1s;
+}
+.mobile_nav li:hover{
+  @apply text-red-700 ;
+
+}
