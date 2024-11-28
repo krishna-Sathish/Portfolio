@@ -8,7 +8,7 @@ const Projects = () => {
       id="project"
     >
       <div className="w-full">
-        <div className="flex flex-col px-10 py-5">
+        <div className="flex flex-col px-5 py-5 md:px-10">
           <h1 className="text-4xl border-b-4 mb-5 w-[140px] font-bold">Projects</h1>
           <p className="text-white">
             These are some of my projects. I have built them using frontend technologies. Check them out!
@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="flex flex-col md:flex-row  px-10 gap-5">
+        <div className="flex flex-col md:flex-row  px-5 md:px-10 gap-5">
           {config[0].projects.map((project, index) => (
                 <div className="relative" key={index}>
                    <img

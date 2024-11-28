@@ -1,63 +1,63 @@
- export const config = [
-    {
-      projects: [
-        {
-          title:'Ecommerce',
-          image: '/assets/dall.png',
-          description: 'An E-commerce Website built with HTML and CSS',
-          link: '',
-        },
-        {
-          title:'meal-finder',
-          image: '/assets/meal_finder.png',
-          description: 'Meal Finder Website built with HTML,CSS and JavaScript',
-          link: '',
-        },
-        {
-          title:'Ecommerce-API',
-          image: '/assets/Products page.png',
-          description: `E-commerce website using APIs, built with HTML, JavaScript, and Bootstrap.`,
-          link: 'https://krishna-sathish.github.io/Check/',
-        },
-        {
-          title:'airpods',
-          image: '/assets/Ecommerce.png',
-          description: 'Tech Shop website build with React,Redux Toolkit and Bootstrap',
-          link: 'https://github.com/krishna-Sathish/Portfolio.git',
-        },
-      ],
-    },
-  ];
+export const config = [
+  {
+    projects: [
+      {
+        title: 'Ecommerce',
+        image: process.env.PUBLIC_URL + '/assets/dall.png', 
+        description: 'An E-commerce Website built with HTML and CSS',
+        link: 'https://krishna-sathish.github.io/E-commerce',
+      },
+      {
+        title: 'meal-finder',
+        image: process.env.PUBLIC_URL + '/assets/meal_finder.png', 
+        description: 'Meal Finder Website built with HTML,CSS and JavaScript',
+        link: ' https://krishna-sathish.github.io/meal-finder',
+      },
+      {
+        title: 'Ecommerce-API',
+        image: process.env.PUBLIC_URL + '/assets/Products page.png',
+        description: `E-commerce website using APIs, built with HTML, JavaScript, and Bootstrap.`,
+        link: 'https://krishna-sathish.github.io/E-commerce-API',
+      },
+      {
+        title: 'airpods',
+        image: process.env.PUBLIC_URL + '/assets/Ecommerce.png', 
+        description: 'Tech Shop website build with React,Redux Toolkit and Bootstrap',
+        link: 'https://github.com/krishna-Sathish/Portfolio.git',
+      },
+    ],
+  },
+];
+
 
 export const smallTasks = [
-    {
-       tasks :[
-        {
-            title :"Calculator",
-            image:'/assets/Calculator.png',
-            link:'https://krishna-sathish.github.io/Calculator'
-        },
-        {
-            title :"Guess my Number",
-            image:'/assets/guess.png',
-            link:''
-        },
-        {
-            title :"Whather App",
-            image:'/assets/wheather.png',
-            link:'https://krishna-sathish.github.io/whather/'
-        },
-      
-        {
-            title :"Get Movies",
-            image:'/assets/movies.png',
-            link:'https://krishna-sathish.github.io/getmovies/'
-        },
-        {
-            title :"pagination",
-            image:'/assets/pagination.png',
-            link:'https://krishna-sathish.github.io/Pagination'
-        },
-       ]
-    }
-]
+  {
+    tasks: [
+      {
+        title: "Calculator",
+        image: process.env.PUBLIC_URL + '/assets/Calculator.png', 
+        link: 'https://krishna-sathish.github.io/Calculator',
+      },
+      {
+        title: "Guess my Number",
+        image: process.env.PUBLIC_URL + '/assets/guess.png', 
+        link: 'https://krishna-sathish.github.io/Guess-my-number',
+      },
+      {
+        title: "Whather App",
+        image: process.env.PUBLIC_URL + '/assets/whather.png', 
+        link: 'https://krishna-sathish.github.io/whather/',
+      },
+      {
+        title: "Get Movies",
+        image: process.env.PUBLIC_URL + '/assets/movies.png', 
+        link: 'https://krishna-sathish.github.io/getmovies',
+      },
+      {
+        title: "pagination",
+        image: process.env.PUBLIC_URL + '/assets/pagination.png', 
+        link: 'https://krishna-sathish.github.io/Pagination',
+      },
+    ],
+  },
+];

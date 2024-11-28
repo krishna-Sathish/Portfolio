@@ -31,7 +31,7 @@ const Header = () => {
             </ul>
          </nav>  
          }
-           <button onClick={()=>setToogleMenu(!toggleMenu) } className='block md:hidden'><Bars3Icon className='text-white h-5'/></button>
+           <button onClick={()=>setToogleMenu(!toggleMenu) } className='block md:hidden'><Bars3Icon className='text-white h-8'/></button>
        </header>
   )
 }

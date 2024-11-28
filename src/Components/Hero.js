@@ -5,14 +5,13 @@ const Hero = () => {
     const config={
       subtitle :"I'm a Full-stack developer",
       social :{
-        
         linkedin:'https://www.linkedin.com/in/krishnasathish3773',
         github:'https://github.com/krishna-Sathish'
       }
     }
   return (
-    <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-gray-800' id='hero'>
-        <div className='md:w-1/2 flex flex-col'>
+    <section className='flex flex-col md:flex-row justify-center px-5 py-8 md:py-32 bg-gray-800' id='hero'>
+      <div className='md:w-1/2 flex flex-col'>
         <h1 className=' text-white text-6xl font-hero-font'>Hi, <br/> I'm <span className='name_design'>SATHISH </span>
         <p className='text-2xl'>{config.subtitle} </p></h1>
          <div className='flex py-10 text-gray-400'>
@@ -20,8 +19,11 @@ const Hero = () => {
             <a href={config.social.github} target='_blank'  rel="noopener noreferrer" className=' hover:text-white'> <AiOutlineGithub size={40}/></a>
          </div>
         </div>
-
-      <img className='md:w-1/3 h-56 hero-img' src={HeroImg} alt='hero_img'/>
+       <div className='md:w-1/3'>
+       <img className=' h-56 hero-img' src={HeroImg} alt='hero_img'/>
+       <p className='text-white text-center mt-5 text-xl'>B.E / EEE</p>
+    </div>
+      
     </section>
   )
 }
