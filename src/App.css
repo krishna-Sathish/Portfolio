@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 /* header style */
+.hero-img{
+  border-radius: 50%;
+  width: 100%;
 
-
+}
+header{
+  @apply top-0 sticky z-20;
+}
+.name_design{
+  background: linear-gradient(to right,orangered,white,green);
+  background-clip: text;
+ color: transparent;
+}
 header ul li{
-  @apply px-2 ;
+  @apply px-4 ;
 }
 .mobile_nav{
 @apply fixed top-10 left-0 bg-gray-950 text-white w-full h-1/4;
@@ -27,6 +38,7 @@ header ul li{
 .btn{
   @apply bg-gray-800 px-5 py-2 font-bold hover:border-2 border-white rounded ;
 }
+
 html{
   scroll-behavior: smooth;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineMail } from 'react-icons/ai';
 const Contact= () => {
   const config ={
     email:'romansathish3337@gmail.com',
@@ -9,9 +10,9 @@ const Contact= () => {
              
             <div className=' flex flex-col items-center text-white'>
                  <h1 className='text-white text-4xl border-b-4  mb-5 w-[140px] font-bold'>Contact</h1> 
-                <p >Feel free to contact me for a more detailed discussion.</p>
-                 <p className='py-2'><span className='font-bold'>Email :</span>{config.email}</p>
-                 <p className='py-2'><span className='font-bold'>Phone :</span>{config.phone}</p>
+                <p className='py-2' >Feel free to contact me for a more detailed discussion.</p>
+                 <p className='py-2'><span className='font-bold'><span></span><AiOutlineMail/> Email : </span>{config.email}</p>
+                 <p className='py-2'><span className='font-bold'>Phone : </span>{config.phone}</p>
                 
         </div> 
     </section>

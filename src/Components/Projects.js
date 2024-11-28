@@ -1,34 +1,8 @@
 import React from 'react';
-
+import ProjectSlider from '../Slider/ProjectSlider';
+import { config } from '../data/data';
 const Projects = () => {
-  const config = [
-    {
-      projects: [
-        {
-          image: 'https://image.lexica.art/full_webp/b9136dcd-c698-4f0e-a5f8-7e45ea4e8222',
-          description: 'An E-commerce Website built with HTML and CSS',
-          link: '',
-        },
-        {
-          image: 'https://image.lexica.art/full_webp/f3719158-4904-4312-a9ad-5b09a48d4f07',
-          description: 'An E-commerce Website built with HTML and CSS',
-          link: '',
-        },
-        {
-          image: 'https://image.lexica.art/full_webp/e2d5a108-72a1-46c8-912a-38eb4a7d0a7a',
-          description: 'An E-commerce Website built with HTML and CSS',
-          link: '',
-        },
-        {
-          image: 'https://image.lexica.art/full_webp/4b5755f1-b9f3-477b-86ec-34ce7df68565',
-          description: 'An E-commerce Website built with HTML and CSS',
-          link: '',
-        },
-      ],
-    },
-  ];
-
-  return (
+   return (
     <section
       className="flex flex-col px-5 py-10 md:py-20 justify-center text-white bg-gray-800"
       id="project"
@@ -46,20 +20,24 @@ const Projects = () => {
           {config[0].projects.map((project, index) => (
                 <div className="relative" key={index}>
                    <img
-                className="h-[170px] w-[500px] object-cover"
+                className="h-[170px] w-[500px] object-cover rounded"
                 src={project.image}
-                alt="e-commerce"
+                alt={project.title}
                    />
               <div className="project-ani">
                 <p className="text-center py-5 px-5">{project.description}</p>
                 <div className='flex justify-center'>
-               <a className='btn' target='_blank' href={project.link}>View Project</a>
+               <a className='btn' target='_blank' rel="noopener noreferrer" href={project.link}>View Project</a>
               </div>
               </div>
              
             </div>
           ))}
         </div>
+      </div>
+      <div className='w-full'>
+      <ProjectSlider/>
+         
       </div>
     </section>
   );

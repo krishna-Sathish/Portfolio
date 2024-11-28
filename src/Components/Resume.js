@@ -16,7 +16,7 @@ const Resume= () => {
             <div className='md:w-1/2  flex justify-center'>
                  <div className=' flex flex-col justify-center ms-3'>
                  <h1 className='text-white text-4xl border-b-4  mb-5 w-[140px] font-bold'>Resume</h1> 
-                 <p className='text-white my-3'>Feel free to view my <strong>Resume</strong><a href={config.link} target='_blank' className='btn ms-2'>Download</a> </p>
+                 <p className='text-white my-3'>Feel free to view my <strong>Resume</strong><a href={config.link} target='_blank' rel="noopener noreferrer" className='btn ms-2'>Download</a> </p>
                 
                  </div>
                  
