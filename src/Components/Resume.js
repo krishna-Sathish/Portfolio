@@ -1,10 +1,10 @@
 import React from 'react'
 const Resume= () => {
   const config ={
-    link :''
+    link :'https://sathishresume3773.tiiny.site'
   }
   return (
-    <section className=' flex flex-col md:flex-row bg-gray-950 px-5' id='resume'>
+    <section className=' flex flex-col md:flex-row bg-gray-950 px-5 py-5' id='resume'>
            <div className='md:w-1/2 py-5 flex justify-center md:justify-end'>
   <img 
     className='my-3 w-[230px] md:w-[300px] ' 
