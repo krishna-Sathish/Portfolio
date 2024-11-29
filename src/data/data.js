@@ -23,7 +23,7 @@ export const config = [
         title: 'airpods',
         image: process.env.PUBLIC_URL + '/assets/Ecommerce.png', 
         description: 'Tech Shop website build with React,Redux Toolkit and Bootstrap',
-        link: 'https://github.com/krishna-Sathish/Portfolio.git',
+        link: 'https://krishna-sathish.github.io/Tech-Shop',
       },
     ],
   },

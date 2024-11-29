@@ -35,13 +35,13 @@ const Contact = () => {
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Thank you! Your message has been delivered", response);
-        alert("Thank you! Your message has been delivered");
+        console.log(`Thank you! ${inputField.username} Your message has been delivered`, response);
+        alert(`Thank you! ${inputField.username} Your message has been delivered`);
         setInputField({ username: "", email: "", message: "" }); 
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        alert("Unable to send your message. Kindly retry");
+        alert(`Unable to send your message ${inputField.username}. Kindly retry`);
       });
   };
   
@@ -67,12 +67,12 @@ const Contact = () => {
             <span className="font-bold">Location: </span>
             {config.location}
           </p>
-          <a href="/" className="text-red-700 ms-2 text-2xl">
+          <a href="https://maps.app.goo.gl/PjCBnCBnViuB7HcRA" className="text-red-700 mt-3 text-2xl">
             <FaMapMarkerAlt />
           </a>
         </div>
-        <div className="md:w-1/2 shadow-2xl rounded">
-          <p className="text-white text-xl text-center">Let’s Build Something Amazing Together!</p>
+        <div className="mt-5 md:mt-0 md:w-1/2 shadow-2xl rounded">
+          <p className="text-white text-lg md:text-xl text-center">Let’s Build Something Amazing Together!</p>
           <div className="md:w-96 p-6">
             <form onSubmit={submitForm}>
               <div className="mt-3">
