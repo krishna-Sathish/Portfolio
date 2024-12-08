@@ -45,7 +45,7 @@ export const smallTasks = [
       },
       {
         title: "Whather App",
-        image: process.env.PUBLIC_URL + '/assets/whather.png', 
+        image: process.env.PUBLIC_URL + '/assets/weather.png', 
         link: 'https://krishna-sathish.github.io/whather/',
       },
       {
