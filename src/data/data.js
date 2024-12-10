@@ -44,7 +44,7 @@ export const smallTasks = [
         link: 'https://krishna-sathish.github.io/Guess-my-number',
       },
       {
-        title: "Whather App",
+        title: "Weather App",
         image: process.env.PUBLIC_URL + '/assets/weather.png', 
         link: 'https://krishna-sathish.github.io/whather/',
       },
