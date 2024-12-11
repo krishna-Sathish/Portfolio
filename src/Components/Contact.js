@@ -54,7 +54,7 @@ const Contact = () => {
 
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 flex flex-col items-center justify-center text-white">
-          <p className="py-2">Feel free to contact me for a more detailed discussion.</p>
+          <p className="py-2">Don't hesitate to reach out for a deeper conversation.</p>
           <p className="py-2">
             <span className="font-bold">Email: </span>
             {config.email}

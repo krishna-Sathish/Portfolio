@@ -1,7 +1,7 @@
 import React from 'react'
 const Resume= () => {
   const config ={
-    link :'https://sathishresume3773.tiiny.site'
+    link :'https://sathishresume333.tiiny.site'
   }
   return (
     <section className=' flex flex-col md:flex-row bg-gray-950 px-5 py-5' id='resume'>
