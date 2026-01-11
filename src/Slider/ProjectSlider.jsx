@@ -43,7 +43,7 @@ const ProjectSlider = () => {
 
   return (
     <div className="flex flex-col px-5 py-5 gap-5">
-      <h1 className="text-4xl border-b-4 mb-5 w-[200px] font-bold">Small Tasks</h1>
+      <h1 className="text-4xl border-b-4 mb-5 w-[200px] font-bold text-center mx-auto">Small Tasks</h1>
       <Slider {...settings}>
         {smallTasks[0].tasks.map((project, index) => (
           <div key={index} className="px-2">
