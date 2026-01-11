@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
-import PropTypes from 'prop-types'
 
 const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -13,13 +12,13 @@ const Header = () => {
   return (
     
        <header className=' flex justify-between px-5 py-3 bg-gray-700 text-white'>
-         <a href='/' className='font-bold '>
+         <a href='#' className='font-bold '>
               PORTFOLIO
          </a>
 
          <nav className='hidden md:block'>
             <ul className='flex destop_nav'>
-               <li><a href='/'>Home</a></li>
+               <li><a href='#'>Home</a></li>
                <li><a href='#about'>About</a></li>
                <li><a href='#project'>Project</a></li>
                <li><a href='#resume'>Resume</a></li>
@@ -30,7 +29,7 @@ const Header = () => {
         {
          toggleMenu && <nav className='block md:hidden'>
             <ul className='flex flex-col mobile_nav'>
-               <li><a href='/' onClick={handleLinkClick}>Home</a></li>
+               <li><a href='#' onClick={handleLinkClick}>Home</a></li>
                <li><a href='#about' onClick={handleLinkClick}>About</a></li>
                <li><a href='#project' onClick={handleLinkClick}>Project</a></li>
                <li><a href='#resume' onClick={handleLinkClick}>Resume</a></li>

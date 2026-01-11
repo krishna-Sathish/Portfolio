@@ -36,7 +36,7 @@ const Resume = () => {
               href={config.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="resume-btn mx-3"
+              className="btn mx-3"
             >
               Download
             </a>
